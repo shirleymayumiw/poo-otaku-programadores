@@ -2,26 +2,28 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>POO para Otakus Programadores</title>
+<title>Python para Programação e Análise de Dados | Otaku Dev</title>
 <style>
-:root{--bg:#0b1020;--panel:#141c32;--panel2:#1b2743;--text:#f4f7ff;--muted:#aab7d4;--pink:#ff6eb4;--cyan:#5ee7f7;--gold:#ffd166;--green:#78f0b0;--border:#2a3859}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top right,#242052 0,#0b1020 45%);color:var(--text);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}button,input{font:inherit}button{cursor:pointer;border:0;border-radius:12px;padding:10px 15px;background:linear-gradient(135deg,var(--pink),#a77bff);color:#11152b;font-weight:800;transition:.18s}button:hover{transform:translateY(-1px);filter:brightness(1.08)}button.secondary{background:var(--panel2);color:var(--text);border:1px solid var(--border)}button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}.wrap{max-width:1120px;margin:auto;padding:22px}.top{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}.brand{display:flex;gap:12px;align-items:center}.logo{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:linear-gradient(135deg,var(--pink),var(--cyan));font-size:25px}.brand h1{font-size:clamp(20px,3vw,29px);margin:0}.brand p{margin:0;color:var(--muted);font-size:13px}.hero{margin:25px 0 18px;padding:clamp(22px,5vw,42px);border:1px solid var(--border);border-radius:25px;background:linear-gradient(115deg,#171f3aee,#271a43dd);position:relative;overflow:hidden}.hero:after{content:'✦';position:absolute;right:5%;top:-30px;font-size:170px;color:#ffffff0b}.eyebrow{color:var(--cyan);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.hero h2{font-size:clamp(28px,5vw,48px);line-height:1.1;max-width:700px;margin:9px 0 14px}.hero p{max-width:650px;color:var(--muted)}.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.stat{background:#ffffff0a;border:1px solid var(--border);border-radius:12px;padding:9px 13px;font-size:13px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.tabs button.active{background:var(--cyan);color:#0b1020}.view{display:none}.view.active{display:block}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:14px}.card,.panel{border:1px solid var(--border);border-radius:18px;background:linear-gradient(160deg,var(--panel),#11182b);padding:18px}.card h3,.panel h3{margin:5px 0 8px}.card p,.panel p{color:var(--muted)}.emoji{font-size:30px}.tag{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan)}.card code,.lesson code{background:#0a1122;padding:2px 6px;border-radius:5px;color:var(--gold)}.lesson{margin-bottom:14px}.lesson pre{white-space:pre-wrap;overflow:auto;background:#080d19;border:1px solid var(--border);padding:15px;border-radius:12px;color:#dbe8ff}.lesson .tip{border-left:3px solid var(--gold);padding:8px 12px;background:#ffd16612;color:#f8e6ad;border-radius:0 10px 10px 0}.flash-wrap{max-width:700px;margin:0 auto}.flashcard{min-height:245px;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;border:1px solid #4c5283;border-radius:24px;background:radial-gradient(circle at top,#34295a,#171d36 70%);cursor:pointer;box-shadow:0 15px 45px #0003;user-select:none}.flashcard h3{font-size:clamp(23px,4vw,34px);margin:10px 0}.flashcard p{color:var(--muted)}.flash-actions{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin:14px 0}.progress{height:9px;background:#27324d;border-radius:10px;overflow:hidden;margin:12px 0}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--pink),var(--cyan));transition:.25s}.quiz-option{display:block;width:100%;text-align:left;margin:8px 0;background:#202b49;color:var(--text);border:1px solid var(--border);font-weight:600}.quiz-option.correct{border-color:var(--green);background:#173d38}.quiz-option.wrong{border-color:#ff7b91;background:#452437}.feedback{padding:12px;border-radius:10px;margin-top:10px;background:#ffffff0a}.fighter{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fighter .panel{min-width:0}.hp{height:13px;background:#45263b;border-radius:10px;overflow:hidden}.hp span{display:block;height:100%;background:linear-gradient(90deg,#ff6b8b,#ffc46b);transition:width .3s}.small{font-size:13px;color:var(--muted)}footer{padding:25px 0;color:var(--muted);font-size:13px;text-align:center}@media(max-width:580px){.wrap{padding:14px}.fighter{grid-template-columns:1fr}.hero{border-radius:18px}}
+:root{--bg:#0b1020;--panel:#141c32;--panel2:#1b2743;--text:#f4f7ff;--muted:#aab7d4;--pink:#ff6eb4;--cyan:#5ee7f7;--gold:#ffd166;--green:#78f0b0;--border:#2a3859}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top right,#242052 0,#0b1020 45%);color:var(--text);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}button,input{font:inherit}button{cursor:pointer;border:0;border-radius:12px;padding:10px 15px;background:linear-gradient(135deg,var(--pink),#a77bff);color:#11152b;font-weight:800;transition:.18s}button:hover{transform:translateY(-1px);filter:brightness(1.08)}button.secondary{background:var(--panel2);color:var(--text);border:1px solid var(--border)}button:focus-visible,a:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}.wrap{max-width:1120px;margin:auto;padding:22px}.top{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}.brand{display:flex;gap:12px;align-items:center}.logo{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:linear-gradient(135deg,var(--pink),var(--cyan));font-size:25px}.brand h1{font-size:clamp(20px,3vw,29px);margin:0}.brand p{margin:0;color:var(--muted);font-size:13px}.hero{margin:25px 0 18px;padding:clamp(22px,5vw,42px);border:1px solid var(--border);border-radius:25px;background:linear-gradient(115deg,#171f3aee,#271a43dd);position:relative;overflow:hidden}.hero:after{content:'✦';position:absolute;right:5%;top:-30px;font-size:170px;color:#ffffff0b}.eyebrow{color:var(--cyan);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.hero h2{font-size:clamp(28px,5vw,48px);line-height:1.1;max-width:700px;margin:9px 0 14px}.hero p{max-width:650px;color:var(--muted)}.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.stat{background:#ffffff0a;border:1px solid var(--border);border-radius:12px;padding:9px 13px;font-size:13px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.tabs button.active{background:var(--cyan);color:#0b1020}.view{display:none}.view.active{display:block}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:14px}.card,.panel{border:1px solid var(--border);border-radius:18px;background:linear-gradient(160deg,var(--panel),#11182b);padding:18px}.card h3,.panel h3{margin:5px 0 8px}.card p,.panel p{color:var(--muted)}.emoji{font-size:30px}.tag{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--cyan)}.card code,.lesson code{background:#0a1122;padding:2px 6px;border-radius:5px;color:var(--gold)}.lesson{margin-bottom:14px}.lesson pre{white-space:pre-wrap;overflow:auto;background:#080d19;border:1px solid var(--border);padding:15px;border-radius:12px;color:#dbe8ff}.lesson .tip{border-left:3px solid var(--gold);padding:8px 12px;background:#ffd16612;color:#f8e6ad;border-radius:0 10px 10px 0}.flash-wrap{max-width:700px;margin:0 auto}.flashcard{min-height:245px;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;border:1px solid #4c5283;border-radius:24px;background:radial-gradient(circle at top,#34295a,#171d36 70%);cursor:pointer;box-shadow:0 15px 45px #0003;user-select:none}.flashcard h3{font-size:clamp(23px,4vw,34px);margin:10px 0}.flashcard p{color:var(--muted)}.flash-actions{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin:14px 0}.progress{height:9px;background:#27324d;border-radius:10px;overflow:hidden;margin:12px 0}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--pink),var(--cyan));transition:.25s}.quiz-option{display:block;width:100%;text-align:left;margin:8px 0;background:#202b49;color:var(--text);border:1px solid var(--border);font-weight:600}.quiz-option.correct{border-color:var(--green);background:#173d38}.quiz-option.wrong{border-color:#ff7b91;background:#452437}.feedback{padding:12px;border-radius:10px;margin-top:10px;background:#ffffff0a}.study-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.92fr);gap:14px;align-items:start}.study-left{min-width:0}.python-editor{width:100%;min-height:310px;resize:vertical;background:#080d19;color:#dbe8ff;border:1px solid var(--border);border-radius:12px;padding:14px;font:13px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace;tab-size:4}.python-output{min-height:110px;max-height:260px;overflow:auto;white-space:pre-wrap;background:#080d19;border:1px solid var(--border);border-radius:12px;padding:13px;color:var(--green);font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace}.study-layout .panel{margin-bottom:14px}.fighter{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fighter .panel{min-width:0}.hp{height:13px;background:#45263b;border-radius:10px;overflow:hidden}.hp span{display:block;height:100%;background:linear-gradient(90deg,#ff6b8b,#ffc46b);transition:width .3s}.small{font-size:13px;color:var(--muted)}footer{padding:25px 0;color:var(--muted);font-size:13px;text-align:center}@media(max-width:900px){.study-layout{grid-template-columns:1fr}}@media(max-width:580px){.wrap{padding:14px}.fighter{grid-template-columns:1fr}.hero{border-radius:18px}}
 </style></head>
 <body><div class="wrap">
-<header class="top"><div class="brand"><div class="logo">⚡</div><div><h1>POO para Otakus Programadores</h1><p>Seu companheiro interativo de estudos · Python do zero</p></div></div><button class="secondary" onclick="resetProgress()">↻ Reiniciar progresso</button></header>
-<section class="hero"><div class="eyebrow">Missão de hoje · Nível iniciante</div><h2>Transforme ideias de anime em código.</h2><p>Aprenda Programação Orientada a Objetos com personagens, poderes, cartas de revisão e um mini combate de RPG. Um passo de cada vez — sem precisar decorar tudo.</p><div class="stats"><div class="stat">📚 <b>6</b> aulas curtas</div><div class="stat">🃏 <b>10</b> cards de revisão</div><div class="stat">🎯 <b>Quiz</b> com feedback</div><div class="stat">⚔️ Mini jogo de batalha</div></div></section>
-<nav class="tabs" aria-label="Seções do curso"><button class="active" data-view="inicio">🏠 Início</button><button data-view="aulas">📖 Aulas</button><button data-view="cards">🃏 Cards</button><button data-view="quiz">🧠 Quiz</button><button data-view="jogo">⚔️ Arena</button></nav>
+<header class="top"><div class="brand"><div class="logo">⚡</div><div><h1>Otaku Dev · Python & Dados</h1><p>Seu companheiro interativo de estudos · Python, POO e Análise de Dados</p></div></div><button class="secondary" onclick="resetProgress()">↻ Reiniciar progresso</button></header>
+<section class="hero"><div class="eyebrow">Missão de hoje · Nível iniciante</div><h2>Do código aos dados: desbloqueie seu próximo nível.</h2><p>Aprenda Python, Programação Orientada a Objetos e Análise de Dados com exemplos de jogos, tabelas, vendas e indicadores. Estude em etapas e pratique com códigos que você pode adaptar.</p><div class="stats"><div class="stat">📚 <b>6</b> aulas de POO</div><div class="stat">📊 <b>7</b> aulas de dados</div><div class="stat">🃏 <b>10</b> cards de revisão</div><div class="stat">🎯 Quiz + arena RPG</div></div></section>
+<nav class="tabs" aria-label="Seções do curso"><button class="active" data-view="inicio">🏠 Início</button><button data-view="aulas">📖 Aulas POO</button><button data-view="dados">📊 Análise de Dados</button><button data-view="cards">🃏 Cards</button><button data-view="quiz">🧠 Quiz + Arena</button></nav>
 <section id="inicio" class="view active"><div class="grid">
 <div class="card"><div class="emoji">🏗️</div><div class="tag">Conceito 01</div><h3>Classe</h3><p>O molde que serve para criar personagens. Como o projeto de um herói antes de ele entrar no jogo.</p><button onclick="showView('aulas')">Aprender</button></div>
 <div class="card"><div class="emoji">🧙</div><div class="tag">Conceito 02</div><h3>Objeto</h3><p>O personagem criado a partir da classe. Naruto e Sasuke podem ser objetos de uma classe Personagem.</p><button onclick="showView('aulas')">Aprender</button></div>
 <div class="card"><div class="emoji">❤️</div><div class="tag">Conceito 03</div><h3>Atributos</h3><p>As informações do objeto: nome, vida, energia, nível e poder de ataque.</p><button onclick="showView('aulas')">Aprender</button></div>
 <div class="card"><div class="emoji">✨</div><div class="tag">Conceito 04</div><h3>Métodos</h3><p>As ações que o objeto pode realizar: atacar, defender, curar ou carregar energia.</p><button onclick="showView('aulas')">Aprender</button></div>
+<div class="card"><div class="emoji">📊</div><div class="tag">Nova trilha</div><h3>Análise de Dados</h3><p>Carregue planilhas, limpe bases, filtre resultados, calcule indicadores e crie gráficos com pandas.</p><button onclick="showView('dados')">Começar trilha</button></div>
 </div><div class="panel" style="margin-top:14px"><h3>🗺️ Mapa da jornada</h3><p>Complete as aulas e depois teste sua memória com os cards e o quiz.</p><div class="progress"><span id="overallProgress"></span></div><div class="small" id="progressLabel">0 de 6 aulas concluídas</div></div></section>
 <section id="aulas" class="view">
 <div class="lesson panel"><div class="tag">Aula 01</div><h3>Classe e objeto: o molde e o herói</h3><p>A <b>classe</b> é o molde. O <b>objeto</b> é o personagem criado com ele.</p><pre>class Personagem:
     pass
 
 naruto = Personagem()
-sasuke = Personagem()</n
+sasuke = Personagem()
+
 print(type(naruto).__name__)  # Personagem</pre><div class="tip">Lembrete: uma classe pode criar muitos objetos diferentes.</div><button onclick="completeLesson(0,this)">Marcar aula como concluída</button></div>
 <div class="lesson panel"><div class="tag">Aula 02</div><h3>Atributos: a ficha do personagem</h3><p>Atributos guardam dados de cada personagem. O método <code>__init__</code> prepara esses dados quando criamos o objeto.</p><pre>class Personagem:
     def __init__(self, nome, vida):
@@ -72,14 +74,133 @@ heroi = Personagem(100)
 heroi.receber_dano(30)
 print(heroi._vida)  # 70</pre><button onclick="completeLesson(5,this)">Marcar aula como concluída</button></div>
 </section>
+<section id="dados" class="view">
+<div class="panel" style="margin-bottom:14px"><div class="tag">Trilha de dados · iniciante</div><h3>📊 Python para Análise de Dados</h3><p>Imagine que cada linha de uma tabela é uma missão e cada coluna é uma característica. Nesta trilha você vai aprender a carregar, limpar, analisar e visualizar dados — habilidades usadas em relatórios operacionais, vendas, produtividade e dashboards.</p><div class="tip">Instalação para praticar no computador: <code>pip install pandas numpy matplotlib openpyxl</code>. Se ainda não puder instalar programas, leia os exemplos e pratique depois no ambiente que sua escola ou trabalho disponibilizar.</div></div>
+<div class="lesson panel"><div class="tag">Dados 01 · Fundamentos</div><h3>Variáveis, listas e dicionários</h3><p>Antes de analisar uma tabela, precisamos guardar informações. Listas guardam vários valores; dicionários guardam pares de chave e valor.</p><pre>campanha = "PicPay Upgrade"
+vendas_por_dia = [12, 15, 9, 18]
+operador = {"nome": "Luna", "vendas": 15}
+
+print(sum(vendas_por_dia))  # 54
+print(operador["vendas"])  # 15</pre><div class="tip">Desafio: crie uma lista com suas vendas de cinco dias e calcule o total com <code>sum()</code>.</div></div>
+<div class="lesson panel"><div class="tag">Dados 02 · Pandas</div><h3>DataFrame: uma tabela dentro do Python</h3><p>A biblioteca <code>pandas</code> facilita trabalhar com dados em linhas e colunas, como uma planilha do Excel.</p><pre>import pandas as pd
+
+dados = {
+    "operador": ["Ana", "Bia", "Caio"],
+    "vendas": [12, 8, 15],
+    "horas": [6, 5, 7]
+}
+df = pd.DataFrame(dados)
+print(df)
+print(df.head())</pre><div class="tip"><code>DataFrame</code> é a tabela; <code>head()</code> mostra as primeiras linhas para uma inspeção rápida.</div></div>
+<div class="lesson panel"><div class="tag">Dados 03 · Arquivos</div><h3>Ler CSV e Excel</h3><p>Dados de relatórios geralmente chegam em CSV ou Excel. O pandas permite carregar os dois formatos.</p><pre>import pandas as pd
+
+# Arquivo CSV
+ df = pd.read_csv("vendas.csv", sep=";", encoding="utf-8")
+
+# Arquivo Excel
+# df = pd.read_excel("vendas.xlsx", sheet_name="Base")
+
+print(df.shape)      # linhas e colunas
+print(df.columns)    # nomes das colunas
+print(df.head())     # primeiras linhas</pre><div class="tip">Se aparecer erro de codificação no CSV, experimente <code>encoding="latin-1"</code> ou confirme se o separador é vírgula ou ponto e vírgula. Remova o espaço antes de <code>df</code> ao copiar o exemplo.</div></div>
+<div class="lesson panel"><div class="tag">Dados 04 · Limpeza</div><h3>Tratar dados antes de analisar</h3><p>Uma análise confiável começa com uma base organizada: nomes de colunas consistentes, duplicidades verificadas e valores ausentes identificados.</p><pre># Padronizar nomes das colunas
+df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
+
+# Conferir valores ausentes
+print(df.isna().sum())
+
+# Remover linhas totalmente duplicadas
+df = df.drop_duplicates()
+
+# Converter uma coluna para número, se necessário
+# df["vendas"] = pd.to_numeric(df["vendas"], errors="coerce")</pre><div class="tip">Não apague valores ausentes automaticamente: primeiro entenda o que significam para o negócio.</div></div>
+<div class="lesson panel"><div class="tag">Dados 05 · Filtros e métricas</div><h3>Filtrar, ordenar e criar indicadores</h3><p>Agora vamos encontrar os melhores resultados e calcular indicadores simples.</p><pre># Filtrar operadores com 10 vendas ou mais
+melhores = df[df["vendas"] >= 10]
+
+# Ordenar da maior para a menor venda
+melhores = melhores.sort_values("vendas", ascending=False)
+
+# Criar uma métrica: vendas por hora
+# Evite divisão por zero
+df["vendas_por_hora"] = df["vendas"] / df["horas"].replace(0, float("nan"))
+
+print(melhores)</pre><div class="tip">Filtros respondem “quais linhas atendem à regra?”; ordenação responde “qual resultado vem primeiro?”.</div></div>
+<div class="lesson panel"><div class="tag">Dados 06 · Agrupamento</div><h3>GroupBy: resumir por campanha, dia ou equipe</h3><p>O <code>groupby()</code> agrupa linhas e calcula indicadores para cada grupo — como uma tabela dinâmica do Excel.</p><pre># Total de vendas por campanha
+resumo = df.groupby("campanha", as_index=False)["vendas"].sum()
+
+# Média de vendas por operador em cada campanha
+media = df.groupby("campanha")["vendas"].mean()
+
+print(resumo)
+print(media)</pre><div class="tip">Troque <code>campanha</code> por uma coluna real da sua base, como <code>ddd</code>, <code>estado</code>, <code>data</code> ou <code>operador</code>.</div></div>
+<div class="lesson panel"><div class="tag">Dados 07 · Visualização</div><h3>Transformar números em gráfico</h3><p>Gráficos ajudam a explicar tendências e comparar resultados. Matplotlib é uma biblioteca comum para começar.</p><pre>import matplotlib.pyplot as plt
+
+resumo = df.groupby("campanha")["vendas"].sum().sort_values(ascending=False)
+resumo.plot(kind="bar", title="Vendas por campanha")
+plt.xlabel("Campanha")
+plt.ylabel("Vendas")
+plt.tight_layout()
+plt.show()</pre><div class="tip">Um bom gráfico tem título claro, eixos identificados e responde a uma pergunta específica.</div></div>
+<div class="lesson panel"><div class="tag">Projeto final · Relatório de vendas</div><h3>Monte uma análise do começo ao fim</h3><p>Use uma base autorizada e sem dados pessoais desnecessários. Seu objetivo é criar um resumo que ajude alguém a tomar uma decisão.</p><ol><li>Carregue um CSV ou Excel.</li><li>Confira colunas, tipos e valores ausentes.</li><li>Remova duplicidades somente após validar a regra.</li><li>Calcule vendas totais, média e vendas por hora.</li><li>Agrupe por campanha ou dia.</li><li>Crie um gráfico e exporte o resumo.</li></ol><pre># Exportar o resumo para Excel
+# resumo.to_excel("resumo_vendas.xlsx", index=False)
+
+# Exportar para CSV
+# resumo.to_csv("resumo_vendas.csv", index=False, encoding="utf-8-sig")</pre><div class="tip">Desafio de analista: escreva três conclusões com base nos números e uma recomendação prática. Não invente causas que os dados não comprovam.</div></div>
+</section>
 <section id="cards" class="view"><div class="flash-wrap"><div class="panel"><div class="tag">Revisão ativa</div><h3>Card <span id="cardNum">1</span> de <span id="cardTotal">10</span></h3><div class="progress"><span id="cardProgress"></span></div><div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="Virar card"><div><div class="emoji">🃏</div><p id="cardSide">PERGUNTA</p><h3 id="cardText">O que é uma classe?</h3><p class="small">Clique no card para virar</p></div></div><div class="flash-actions"><button class="secondary" onclick="prevCard()">← Anterior</button><button onclick="flipCard()">Virar card</button><button class="secondary" onclick="nextCard()">Próximo →</button></div><div class="flash-actions"><button style="background:var(--green)" onclick="markCard(true)">✓ Eu sabia</button><button style="background:var(--gold)" onclick="markCard(false)">↻ Vou revisar</button></div><p class="small" id="cardFeedback" aria-live="polite">Dica: tente responder antes de virar o card.</p></div></div></section>
-<section id="quiz" class="view"><div class="panel" style="max-width:760px;margin:auto"><div class="tag">Teste seus poderes</div><h3 id="quizTitle">Pergunta 1 de 5</h3><p id="quizQuestion"></p><div id="quizOptions"></div><div class="feedback" id="quizFeedback" hidden></div><div style="margin-top:14px;display:flex;justify-content:space-between;gap:10px"><span class="small" id="quizScore">Pontuação: 0</span><button id="quizNext" onclick="nextQuestion()" disabled>Próxima pergunta →</button></div></div></section>
-<section id="jogo" class="view"><div class="panel"><div class="tag">Mini projeto interativo</div><h3>⚔️ Arena de treinamento</h3><p>Experimente um combate simples. Seu herói ataca o monstro; cada golpe reduz a vida dele. O botão de cura recupera parte da sua vida.</p><div class="fighter"><div class="panel"><div class="emoji">🥷</div><h3>Seu herói</h3><p>Vida: <b id="heroHPText">100</b>/100</p><div class="hp"><span id="heroHP" style="width:100%"></span></div><p class="small">Poder de ataque: 25</p></div><div class="panel"><div class="emoji">👹</div><h3>Monstro</h3><p>Vida: <b id="monsterHPText">100</b>/100</p><div class="hp"><span id="monsterHP" style="width:100%"></span></div><p class="small">Poder de ataque: 15</p></div></div><div class="flash-actions"><button onclick="attackMonster()">⚡ Atacar</button><button class="secondary" onclick="healHero()">💚 Curar (+20)</button><button class="secondary" onclick="resetBattle()">↻ Reiniciar batalha</button></div><div class="feedback" id="battleLog" aria-live="polite">A batalha vai começar! Escolha sua ação.</div><p class="small">Conexão com POO: vida e poder são atributos; atacar e curar são ações (métodos).</p></div></section>
-<footer>Feito para estudar um pouco por dia. Os exemplos usam personagens genéricos e código Python didático.</footer>
+<section id="quiz" class="view"><div class="study-layout"><div class="study-left"><div class="panel"><div class="tag">Teste seus poderes</div><h3 id="quizTitle">Pergunta 1 de 5</h3><p id="quizQuestion"></p><div id="quizOptions"></div><div class="feedback" id="quizFeedback" hidden></div><div style="margin-top:14px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><span class="small" id="quizScore">Pontuação: 0</span><button id="quizNext" onclick="nextQuestion()" disabled>Próxima pergunta →</button></div></div>
+<div class="panel"><div class="tag">Pratique o conceito</div><h3>⚔️ Arena de treinamento</h3><p>Use o que aprendeu no quiz em uma batalha rápida. Vida e poder são atributos; atacar e curar são métodos.</p><div class="fighter"><div class="panel"><div class="emoji">🥷</div><h3>Seu herói</h3><p>Vida: <b id="heroHPText">100</b>/100</p><div class="hp"><span id="heroHP" style="width:100%"></span></div><p class="small">Poder de ataque: 25</p></div><div class="panel"><div class="emoji">👹</div><h3>Monstro</h3><p>Vida: <b id="monsterHPText">100</b>/100</p><div class="hp"><span id="monsterHP" style="width:100%"></span></div><p class="small">Poder de ataque: 15</p></div></div><div class="flash-actions"><button onclick="attackMonster()">⚡ Atacar</button><button class="secondary" onclick="healHero()">💚 Curar (+20)</button><button class="secondary" onclick="resetBattle()">↻ Reiniciar batalha</button></div><div class="feedback" id="battleLog" aria-live="polite">A batalha vai começar! Escolha sua ação.</div></div></div>
+<aside class="panel"><div class="tag">Laboratório de código</div><h3>🐍 Python ao seu lado</h3><p>Escreva código e clique em executar. O Python roda no navegador; a primeira inicialização precisa de internet e pode levar alguns segundos.</p><label for="pythonCode" class="small">Seu código Python</label><textarea id="pythonCode" class="python-editor" spellcheck="false">nome = "Naruto"
+vida = 100
+poder = 25
+
+print("Ninja:", nome)
+print("Vida inicial:", vida)
+print("Poder de ataque:", poder)
+
+vida -= poder
+print("Vida depois de receber um ataque:", vida)</textarea><div class="flash-actions" style="justify-content:flex-start"><button id="runPythonBtn" onclick="runPythonCode()">▶ Executar Python</button><button class="secondary" onclick="resetPythonCode()">↻ Exemplo inicial</button><button class="secondary" onclick="loadPandasExample()">📊 Exemplo pandas</button></div><div class="small" id="pythonStatus" role="status">Em espera. Clique em Executar Python para iniciar o ambiente.</div><h4>Saída</h4><pre id="pythonOutput" class="python-output">O resultado do seu código aparecerá aqui.</pre><p class="small">Dica: este ambiente usa Pyodide (Python no navegador). Para pandas, clique em “Exemplo pandas”; o carregamento da biblioteca pode demorar.</p></aside></div></section>
+<footer>Feito para estudar um pouco por dia. Trilha de POO + Python para Análise de Dados. Use dados fictícios ou autorizados e proteja informações pessoais.</footer>
 </div>
 <script>
 const cards=[
 ['O que é uma classe?','É um molde para criar objetos. Ex.: Personagem.'],['O que é um objeto?','Uma instância de uma classe. Ex.: Naruto.'],['O que são atributos?','Dados do objeto, como nome, vida e poder.'],['O que são métodos?','Ações do objeto, como atacar() ou defender().'],['Para que serve __init__?','Para inicializar o objeto quando ele é criado.'],['O que significa self?','Referência ao próprio objeto que está usando o método.'],['O que é abstração?','Representar apenas os detalhes relevantes para o sistema.'],['O que é encapsulamento?','Controlar como os dados são acessados e modificados.'],['O que é herança?','Uma classe aproveita características e métodos de outra.'],['O que é polimorfismo?','A mesma chamada pode ter comportamentos diferentes conforme o objeto.']];
+let pyodideInstance=null,pyodideLoading=null;
+const defaultPythonCode=`nome = "Naruto"
+vida = 100
+poder = 25
+
+print("Ninja:", nome)
+print("Vida inicial:", vida)
+print("Poder de ataque:", poder)
+
+vida -= poder
+print("Vida depois de receber um ataque:", vida)`;
+async function ensurePyodide(){if(pyodideInstance)return pyodideInstance;if(pyodideLoading)return pyodideLoading;document.getElementById('pythonStatus').textContent='Carregando Python no navegador…';pyodideLoading=(async()=>{if(!window.loadPyodide){await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='https://cdn.jsdelivr.net/pyodide/v0.27.7/full/pyodide.js';script.onload=resolve;script.onerror=()=>reject(new Error('Não foi possível carregar o ambiente Python. Verifique sua conexão com a internet.'));document.head.appendChild(script);});}pyodideInstance=await loadPyodide();return pyodideInstance;})();try{return await pyodideLoading;}catch(e){pyodideLoading=null;throw e;}}
+async function runPythonCode(){const btn=document.getElementById('runPythonBtn'),out=document.getElementById('pythonOutput'),status=document.getElementById('pythonStatus');btn.disabled=true;out.textContent='Executando…';try{const py=await ensurePyodide();status.textContent='Executando código Python…';py.globals.set('user_code',document.getElementById('pythonCode').value);const result=await py.runPythonAsync(`import sys, io, traceback
+_buffer = io.StringIO()
+_old_stdout, _old_stderr = sys.stdout, sys.stderr
+sys.stdout = _buffer
+sys.stderr = _buffer
+try:
+    exec(compile(user_code, '<editor>', 'exec'), {})
+except Exception:
+    traceback.print_exc()
+finally:
+    sys.stdout, sys.stderr = _old_stdout, _old_stderr
+_buffer.getvalue()`);out.textContent=result||'Código executado sem saída. Use print() para exibir resultados.';status.textContent='Python pronto ✓';}catch(e){out.textContent='Erro ao iniciar/executar Python:\n'+(e.message||String(e));status.textContent='Não foi possível executar. Confira a conexão e tente novamente.';}finally{btn.disabled=false;}}
+function resetPythonCode(){document.getElementById('pythonCode').value=defaultPythonCode;document.getElementById('pythonOutput').textContent='Código restaurado. Clique em Executar Python.';document.getElementById('pythonStatus').textContent='Em espera.';}
+function loadPandasExample(){document.getElementById('pythonCode').value=`import pandas as pd
+
+vendas = pd.DataFrame({
+    "campanha": ["Upgrade", "Epic", "Upgrade", "Aquisicao"],
+    "vendas": [120, 85, 150, 60]
+})
+
+print("Base de vendas:")
+print(vendas)
+print("\nTotal de vendas por campanha:")
+print(vendas.groupby("campanha")["vendas"].sum().sort_values(ascending=False))`;document.getElementById('pythonStatus').textContent='Exemplo pandas selecionado. Ao executar, o ambiente pode carregar a biblioteca.';}
 let currentCard=0,flipped=false,cardMarks={},completed=new Set();
 const questions=[{q:'Qual opção descreve melhor uma classe?',o:['Um molde para criar objetos','Uma variável que guarda vida','Uma ação do personagem'],a:0,e:'A classe define a estrutura que os objetos podem ter.'},{q:'Qual destes é um atributo?',o:['atacar()','vida','class'],a:1,e:'Vida é uma informação armazenada no personagem.'},{q:'O que um método representa?',o:['Uma ação ou comportamento','O nome do arquivo','Sempre um número'],a:0,e:'Métodos são funções definidas dentro de uma classe.'},{q:'O que a herança permite?',o:['Apagar todas as classes','Aproveitar características de outra classe','Executar Python sem código'],a:1,e:'Uma classe filha pode reutilizar métodos e atributos da classe pai.'},{q:'Dois personagens têm atacar(), mas fazem golpes diferentes. Isso é…',o:['Abstração','Polimorfismo','Um erro obrigatório'],a:1,e:'A mesma chamada produz comportamentos diferentes conforme o objeto.'}];let qi=0,score=0,answered=false;
 function showView(id){document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id===id));document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.view===id));if(id==='cards')renderCard();if(id==='quiz')renderQuiz();window.scrollTo({top:0,behavior:'smooth'})}document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.view)));
